@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--material icon-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--mycss-->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--media query--> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--cdn AOS-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>      
+      <!--jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!--googlefont-->
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+      </style>
+    </head>
+
+    <body>
+      <!--mainnav-->
+      <div class="navbar-fixed">
+          <nav class="abaycostumcolor">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img src="img/kepitingkriukklogo150x50px.png"></a>
+                <!--When your nav bar is resized, you will see that the links on the right turn into a hamburger icon menu. Take a look at the example below to get this functionality. Add the entire sidenav-trigger line to your nav.-->
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="">Tentang Kami</a></li>
+                  <li><a href="">Produk</a></li>
+                  <li><a href="">Hubungi Kami</a></li>
+                  <li><a class="dropdown-triggermain" href="#!" data-target="dropdownmain">Pesan<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       </div>
+          <!-- Dropdown Structure untuk mainnav-->
+          <ul id="dropdownmain" class="dropdown-content">
+            <li><a href="#!">Instagram</a></li>
+            <li><a href="#!">Whatsapp</a></li>
+            <li><a href="#!">Email</a></li>
+          </ul>
+
+          <!--sidenav-->
+          <ul class="sidenav" id="mobile-nav">
+             <li><a href="">Tentang Kami</a></li>
+             <li><a href="">Produk</a></li>
+             <li><a href="">Hubungi Kami</a></li>
+             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Pesan<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+
+          <!-- Dropdown Structure sidenav -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Instagram</a></li>
+            <li><a href="#!">Whatsapp</a></li>
+            <li><a href="#!">Email</a></li>
+          </ul>
+          <div id="progress"></div>
+    <!--penutup bagian nav -->
+
+    <!--bagian media-->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/kepiting3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/kepiting2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/kepiting1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- ini adalah penutup media --> 
+  <!--ini aalah tentang kami-->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <h3 class="center">Tentang Kami</h3>
+        <div class="col m6 light" data-aos="fade-right">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col m6 light" data-aos="fade-right">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--ini pentup tentang kami-->
+  
+<!--testimoni-->
+  <div class="container">
+    <h3 class="center" data-aos="fade-up" data-aos-offset="300">Apa Kata Mereka?</h3>
+  </div>
+
+  <section class="testi">
+    <div class="container">
+     
+      <div class="row">
+     
+        <div class="col s12 m6" data-aos="fade-right" data-aos-offset="350">
+          <div class="card-panel teal">
+            <img class="responsive-img" src="img/testperson1.jpg">
+            <h4>Abay</h4>
+            <h6 class="prf">Penulis</h6>
+            <span class="black-text light">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div><!--cardpanel-->
+        </div>
+
+        <div class="col s12 m6">
+          <div class="card-panel teal" data-aos="fade-right" data-aos-offset="350">
+            <img class="responsive-img" src="img/testperson2.jpg">
+            <h4>Angkasa</h4>
+            <h6 class="prf">Developer</h6>
+            <span class="black-text light">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div><!--cardpanel-->
+        </div>
+
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+<!--penutup testimoni-->
+
+<!--produk-->
+    <div class="parallax-container">
+      <div class="container">
+        <h3 class="center" data-aos="zoom-out">Produk Kami</h3>
+      </div>
+      <div class="parallax"><img src="img/kepiting4.jpg"></div>
+    </div>
+
+    <section class="produk">
+      <div class="row"></div>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col s6 m6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/produk.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 m6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/produk.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+
+           <div class="col s6 m6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/produk.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+                  </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+              </div>
+            </div>
+
+           <div class="col s6 m6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/produk.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+                  </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  </section>
+<!--ini penutup produk-->
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!--init AOS-->
+      <script>
+        AOS.init();
+      </script>
+      <script>
+        //javascript untuk navmain dan sidenav
+          $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown();
+            $('.dropdown-triggermain').dropdown();
+        //javascript untuk progress
+
+        //javascript untuk media
+            $('.slider').slider({
+              height:510,
+              indicators:false
+            });
+            $(window).scroll(function(){
+              var scroll = $(window).scrollTop(),
+                      dh = $(document).height(),
+                      wh = $(window).height();
+                      value = (scroll / (dh-wh)) * 100;
+                $('#progress').css('width', value + '%');
+            })  
+
+        //javascript untuk parallax
+            $(document).ready(function(){
+                $('.parallax').parallax();
+              });
+
+          });
+      </script>
+
+    </body>
+  </html>
