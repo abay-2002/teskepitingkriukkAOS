@@ -14,6 +14,10 @@ body {
   background-color: #e30f00 !important;
 }
 
+.mainnav{
+	z-index: 9999 !important;
+}
+
 #progress{
 	position:fixed;
 	top:100;
@@ -68,15 +72,16 @@ body {
 	font-size:60px;
 	line-height:90px;
 }
+}
 
 @media only screen and (max-width: 375px) {
-	.parallax-container {
-	height:150px;		
-}
-	.parallax-container h3 {
-	font-size:40px;
-	line-height:90px;
-}
+		.parallax-container {
+		height:150px;		
+	}
+		.parallax-container h3 {
+		font-size:40px;
+		line-height:90px;
+	}
 
 }
 
