@@ -18,6 +18,12 @@ body {
 	z-index: 9999 !important;
 }
 
+footer .container img {
+	margin-top:5px;
+}
+
+
+
 #progress{
 	position:fixed;
 	top:100;
@@ -85,4 +91,11 @@ body {
 
 }
 
+/*footer*/
+.pfcolorbg {
+	background-color:#db0f00 !important;
+}
 
+.copyrightbgcolor {
+	background-color:#cf0300 !important;
+}
