@@ -237,25 +237,26 @@
     </div>
   </section>
 <!--ini penutup produk-->
+
 <!-- ini adalah form -->
 <div class="row">
   <div class="container">
     <form class="formwrap" name="contact" method="POST" data-netlify="true">
         <h5>Hubungi kami</h5>
         <div class="input-field">
-          <input id="name" type="text" class="validate">
+          <input id="name" type="text" class="validate" name="name">
           <label for="name">Nama</label>
         </div>
         <div class="input-field">
-          <input id="email" type="email" class="validate">
+          <input id="email" type="email" class="validate" name="email">
           <label for="email">Email</label>
         </div>
         <div class="input-field">
-          <input id="alamat" type="text" class="validate">
-          <label for="alamat">Alamat</label>
+          <label for="textarea">Alamat:</label>
+          <input type="text" id="textarea" name="message">
         </div>
         <div class="input-field">
-          <input id="message" type="text" class="validate">
+          <input id="message" type="text" class="validate" name="message">
           <label for="message">Pesan</label>
         </div>
         <button type="submit">Kirim</button>
