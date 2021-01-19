@@ -61,13 +61,10 @@ footer .container img {
  .parallax-container h3{
 	color:white;
 	line-height:190px;
-	font-size:60px;
+	font-size:70px;
 	filter:none;
 }
 
-.parallax-container img {
-	filter:grayscale() blur(.7px);
-}
 
 /*responsive parallax*/
 @media only screen and (max-width: 425px) {
@@ -91,6 +88,33 @@ footer .container img {
 
 }
 
+/*form*/
+.formwrap {
+	width: 500px;
+	margin:auto;
+	margin-top:150px;	
+	margin-bottom:150px;
+	text-align:center !important;
+	background-color:rgba(255,255,255,1);
+	justify-content:center;
+	align-items:center;
+}
+
+form h5 {
+	font-size:35px;	
+}
+
+form button {
+	background-color:#32e662;
+	border-style:none;
+	width:100px;
+	font-weight:bold;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.4);
+	
+}
+/*penutup form*/
+
 /*footer*/
 .pfcolorbg {
 	background-color:#db0f00 !important;
@@ -104,3 +128,6 @@ footer .container img {
 	margin:auto;
 	text-align:center;
 }
+
+
+
