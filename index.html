@@ -245,33 +245,29 @@
         <h5>Hubungi kami</h5>
         <div class="input-field">
           <label for="name">Nama</label>
-          <input id="name" type="text" class="validate" name="name">          
+          <input id="name" type="text" class="validate mustFill" name="name" required>          
         </div>
         <div class="input-field">
           <label for="email">Email</label>
-          <input id="email" type="email" class="validate" name="email">
+          <input id="email" type="email" class="validate mustFill" name="email" required>
         </div>
         <div class="input-field">
           <label for="nohp">No Handphone/Whatsapp</label>
-          <input type="text" id="nohp" class="validate" name="nohp">
+          <input type="text" id="nohp" class="validate mustFill" name="nohp" required>
         </div>
         <div class="input-field">
           <label for="alamat">Alamat</label>
-          <input type="text" id="alamat" class="validate" name="alamat">
+          <input type="text" id="alamat" class="validate mustFill" name="alamat" required>
         </div>
         <div class="input-field">
           <label for="pesan">Pesan </label>
-          <input type="text" id="pesan" class="validate" name="pesan">
+          <input type="text" id="pesan" class="validate mustFill" name="pesan" required>
         </div>
-        <button type="submit">Kirim</button>
+        <button type="submit" onclick="myFunction()">Kirim</button>
       </form>
     </div>
   </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("nohp").required;
-}
-</script>
+
 <!-- ini adalah penutup form--> 
 <!--ini adalah footer-->
     <footer class="page-footer pfcolorbg">
@@ -348,6 +344,11 @@ function myFunction() {
               });
 
           });
+
+        //function untuk form
+        function myFunction() {
+          var x = document.getElementClassName("mustFill").required;
+        }
       </script>
 
     </body>
