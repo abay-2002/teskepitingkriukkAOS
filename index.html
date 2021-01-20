@@ -169,7 +169,7 @@
 <!--penutup testimoni-->
 
 <!--produk-->
-    <div class="parallax-container">
+    <div class="parallax-container" data-aos="zoom-out">
       <div class="container">
         <h3 class="center" data-aos="zoom-out">Produk Kami</h3>
       </div>
@@ -252,19 +252,26 @@
           <input id="email" type="email" class="validate" name="email">
         </div>
         <div class="input-field">
-          <label for="pesan">Pesan </label>
-          <input type="text" id="pesan" class="validate" name="pesan">
+          <label for="nohp">No Handphone/Whatsapp</label>
+          <input type="text" id="nohp" class="validate" name="nohp">
         </div>
         <div class="input-field">
           <label for="alamat">Alamat</label>
           <input type="text" id="alamat" class="validate" name="alamat">
         </div>
-
+        <div class="input-field">
+          <label for="pesan">Pesan </label>
+          <input type="text" id="pesan" class="validate" name="pesan">
+        </div>
         <button type="submit">Kirim</button>
       </form>
     </div>
   </div>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("nohp").required;
+}
+</script>
 <!-- ini adalah penutup form--> 
 <!--ini adalah footer-->
     <footer class="page-footer pfcolorbg">
