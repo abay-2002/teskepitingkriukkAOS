@@ -85,4 +85,16 @@ body {
 
 }
 
+/*form*/
+form {
+	text-align: center;
+}
 
+form button {
+	background-color:#32e662;
+	border-style:none;
+	width:100px;
+	font-weight:bold;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.4);
+}
