@@ -18,14 +18,8 @@ body {
 	z-index: 9999 !important;
 }
 
-<<<<<<< HEAD
-=======
-footer .container img {
-	margin-top:5px;
-}
 
 /*progres*/
->>>>>>> master
 #progress{
 	position:fixed;
 	top:100;
